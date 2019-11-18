@@ -1,0 +1,177 @@
+/* ==============================================
+   FEUILLE DE STYLES DES GABARITS HTML/CSS
+   © Elephorm & Alsacreations.com
+   Conditions d'utilisation:
+   http://creativecommons.org/licenses/by/2.0/fr/
+
+   Modifiée dans le cadre du cours de PHP
+   à l'Institut Paul Lambin
+   http://www.vinci.be/fr-be/ipl/Pages/Accueil.aspx
+   
+   ============================================== */
+
+/* --- COULEURS --- */
+
+/* Général */
+body {
+    color: #F0E39E;
+    background: #181A12; /* Voir -> Note 1 ci-dessous */
+}
+
+a {
+    color: #FF6533;
+}
+
+a:hover, a:focus {
+    color: #FF4C00;
+}
+
+strong {
+    color: #A1B55D;
+}
+
+/* En-tête */
+header {
+    background: #181A12;
+}
+
+/* Navigation */
+nav {
+    background: #181A12;
+}
+
+nav a {
+    color: #EBA328;
+}
+
+nav a:hover, nav a:focus {
+    background: #000000;
+    color: #FBB337;
+}
+
+/* Contenu principal */
+#contenu {
+    color: #363B29;
+    background: #cbd888;
+}
+
+#contenu a {
+    color: #332510;
+}
+
+#contenu a:hover, #contenu a:focus {
+    color: #6E5122;
+}
+
+#contenu strong {
+    color: #181A12;
+}
+
+/* Pied de page */
+footer {
+    color: #E6A948;
+    padding: 15px 20px;
+    font-size: .85em;
+}
+
+footer p {
+    margin: .5em 0;
+}
+
+footer #copyright {
+    float: right;
+    margin: .5em 0 30px 10%;
+    font-size: 1em;
+}
+
+/* Formulaire */
+.formulaire {
+    padding: 12px 12px;
+    background: #cbdd88;
+}
+
+/* Notification */
+#notification {
+    color: #582758;
+}
+
+/* Tableau repris du cours d'HTML */
+.html {
+    font-family: "Bitstream Vera Mono", "Lucida Console", "Courier New",
+    monospace;
+    font-size: larger;
+    color: purple;
+}
+
+#tableBalises th {
+    border-style: solid;
+    border-width: thin;
+    border-collapse: collapse;
+    background-color: #DCDCDC;
+}
+
+#tableBalises td {
+    border-style: solid;
+    border-width: thin;
+    border-collapse: collapse;
+}
+
+/* --- POSITIONNEMENT --- */
+
+/* Page */
+body {
+    padding: 0;
+}
+
+/* En-tête */
+header {
+    padding: 15px 20px 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h1 img {
+    float: left;
+    margin: 7px 20px 10px 0;
+}
+
+header .sous-titre {
+    margin: 4px 0 15px 0;
+}
+
+/* Menu de navigation */
+nav {
+    padding: 12px 15px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline; /* -> 3 */
+}
+
+nav a {
+    padding: 6px;
+    line-height: 1.5;
+    font-size: .9em;
+    text-decoration: none;
+}
+
+/* Contenu */
+#contenu {
+    padding: 10px 20px;
+}
+
+#contenu > :first-child {
+    margin-top: 10px;
+}
+
+#contenu p, #contenu li {
+    line-height: 1.5;
+}
